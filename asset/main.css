@@ -1,0 +1,123 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+  display: flex;
+  flex-direction:row-reverse;
+  width: 49%;
+  background-color: white;
+}
+li img{
+    width: 55%;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+ul{
+    display: flex;
+    gap: 2%;
+}
+
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  
+  padding: 50px 10% 30px;
+}
+
+.backgroundImage{
+    background-image: url("../asset/Images/sample_menu_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;  
+}
+.key {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  background: center / cover no-repeat url("../asset/Images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.section_container{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.section_container p{
+   width: 60%;
+}
+
+.section_container img{
+    width: 35%;
+}
+
